@@ -6,6 +6,7 @@ public class BubbleSort {
         System.out.println("Before Sort:");
         printArrayOfNums(arrayOfNums);
 
+        // sorted partition grows right to left
         for (int lastUnsortedIndex = arrayOfNums.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for(int i = 0; i < lastUnsortedIndex; i++) {
                 if(arrayOfNums[i] > arrayOfNums[i+1]) {
@@ -36,7 +37,7 @@ public class BubbleSort {
     }
 }
 
-// lUI=4/i=0: 23, 54, 4, 78, 1
+// lui=4/i=0: 23, 54, 4, 78, 1
 // lui=4/i=1: 23, 4, 54, 78, 1
 // lui=4/i=2:
 // lui=4/i=3: 23, 4, 54, 1, 78
