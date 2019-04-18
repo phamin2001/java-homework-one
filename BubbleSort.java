@@ -1,7 +1,8 @@
 public class BubbleSort {
 
     public static void main(String[] args) {
-        int[] arrayOfNums = {54, 23, 4, 78, 1};
+        int[] arrayOfNums = { 20, 35, -15, 7, 55, 1, -22};
+
         System.out.println("===================");
         System.out.println("Before Sort:");
         printArrayOfNums(arrayOfNums);
@@ -17,7 +18,7 @@ public class BubbleSort {
 
         System.out.println();
         System.out.println("===================");
-        System.out.println("After Sort: ");
+        System.out.println("After Bubble Sort: ");
         printArrayOfNums(arrayOfNums);
         System.out.println();
         System.out.println("====================");
